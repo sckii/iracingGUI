@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'">
+    <title>Delta Bar</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="widget">
+      <div class="bar-wrapper">
+        <div id= "bar" class="bar"></div>
+      </div>
+      <h1 id="time">0.00</h1>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
